@@ -1,0 +1,230 @@
+body {
+	background: #cecece;
+	font-family: Tahoma, arial, verdana, sans-serif;
+	background: url("../img/bgd.png") repeat-x;
+	background-size: auto;
+}
+html,
+body {
+	height: 100%; 
+}
+
+.clearfix:after {
+	content: ' ';
+	clear: both;
+	height: 0;
+	display: inline-block;
+	visibility: hidden;
+}
+
+.white_main {
+	width: 1000px;
+	background: #fff;
+	margin: 0px auto;
+	margin-top: 40px;
+	overflow: hidden;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(3,29,40,1);
+	-moz-box-shadow: 0px 3px 5px 0px rgba(3,29,40,1);
+	box-shadow: 0px 3px 5px 0px rgba(3,29,40,1);
+}
+/*-------------HEADER ----------------*/
+header {
+	overflow: hidden;
+	width: 940px;
+	margin: 0px auto;
+	padding: 3px 30px;
+}
+     /*--------------LOGO ---------------------*/
+header img {
+	float: left;
+	display: block;
+}
+	/*--------------HEADER RIGHT ---------------------*/
+.header_right {
+	float: right;
+	width: 460px;
+}
+    	/*--------------CONTACTS ---------------------*/
+.contacts{
+	float: right;
+	width: 130px;
+}
+.contacts li {
+	color: #128aa7;
+	font-size: 12px;
+	line-height: 1.2;
+}
+.contacts li:first-child{
+	font-weight: bold;
+	padding-bottom: 7px;
+}
+
+    /*---------------COUNTRIES --------------*/
+
+.countries {
+	float: right;
+	width: 380px;
+}
+.countries img {
+	border-radius: 50%;
+}
+.countries li{
+	float: right;
+	margin: 32px 15px 10px;
+}
+.countries li:last-child{
+	margin-right: 0px;
+}
+.countries li a {
+	display: block;
+	position: relative;
+	padding: 0px;
+	margin-right: 0px;
+}
+.countries li a:hover {
+	text-decoration: underline;
+}
+	
+figcaption {
+	font-size: 10px;
+	text-align:center;
+	color: #128aa7;
+}
+/*--------------CENTER PHOTO ---------------------*/
+.center_photo {
+	border-top: 1px solid #128aa7;
+	border-bottom: 1px solid #128aa7;
+	font-size: 0;
+}
+/*--------------CENTER PANEL ---------------------*/
+.nav_row {	
+	background: #333;
+	margin: 0px;
+	padding: 0px;
+	line-height:0;
+	letter-spacing:-1px;
+	font-size: 0;
+	border-bottom: 1px solid #000;
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(79,79,80,1);
+	-moz-box-shadow: 0px 2px 5px 0px rgba(79,79,80,1);
+	box-shadow: 0px 2px 5px 0px rgba(79,79,80,1); 
+}
+
+.nav_row li {
+	width: 130px;
+	cursor: pointer;
+	line-height: 1;
+	letter-spacing:normal; 
+	display: -moz-inline-stack!important;
+    display:inline;
+   	font-size: 14px;
+	position: relative;
+	z-index: 1;
+}
+.nav_row li a {
+	display: inline-block;
+	margin-left: 12px;
+	padding: 5px 40px 5px 10px;
+	color: #fff;
+}
+.nav_row li:first-child a{
+	margin-left: 55px;
+}
+.nav_row li ul {
+	display: none;
+	position: absolute;
+	left: 15px;
+	top: 20px;
+	margin: 0px;
+	width: 150px;
+	background: #303030;
+	border: 1px solid #000;
+	-webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,.75);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,.75);
+	box-shadow: 0px 5px 5px 0px rgba(0,0,0,.75);
+}
+.naw_row li ul li {
+	float: none;
+	display: block;
+	background: none;
+	border-bottom: 1px solid #CCC;
+}
+.nav_row li ul li a,
+.nav_row li ul li:first-child a
+{
+	margin-left: 0px;
+	padding: 7px 20px 7px 10px;
+}
+.nav_row li .triagle:after {
+	content: " ";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 6px 3px 0 3px;
+	border-color: #ffffff transparent transparent transparent;
+	position: absolute;
+    margin-top: 6px;
+    margin-left: 8px;
+}
+.nav_row li:hover ul {
+	display: block; 
+}
+
+/*--------------BLOCKS ---------------------*/
+
+.fon {
+	width: 1000px;
+	background: url("../img/hrow.png") repeat-y;
+	float: left;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(3,29,40,1);
+	-moz-box-shadow: 0px 3px 5px 0px rgba(3,29,40,1);
+	box-shadow: 0px 3px 5px 0px rgba(3,29,40,1);
+}
+
+.left_block {
+	width: 210px;
+	float: left;
+	padding-left: 17px;
+	padding-bottom: 5px;
+}
+.center_block {
+	width: 550px;
+	float: left;
+}
+
+.right_block {
+	float: left;
+	width: 190px;
+	padding-left: 27px;
+	padding-bottom: 5px;
+}
+.fon li,
+.fon2 li,
+.fon3 li {
+	color: #424c43;
+	font-size: 14px;
+	line-height: 1.8;
+}
+.fon h2,
+.fon2 h2,
+.fon3 h2 {
+	padding: 7px 0px 8px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.hFooter {
+	height: 30px;
+}
+/*--------------FOOTER ---------------------*/
+footer {
+	height: 30px;
+	margin-top: -30px;
+}
+footer p {
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 5px;
+}
+	
